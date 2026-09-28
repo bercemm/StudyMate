@@ -1,32 +1,109 @@
-# React + TypeScript + Vite
+# StudyMate 📚
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+StudyMate, öğrencilerin derslerini ve günlük çalışma görevlerini takip edebileceği, ilerlemelerini görsel olarak izleyebileceği bir çalışma takip uygulamasıdır.
 
-Currently, two official plugins are available:
+Proje, **React + TypeScript** kullanılarak geliştirilmiş ve modern frontend geliştirme pratiklerini uygulamak amacıyla oluşturulmuştur.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Özellikler
 
-## React Compiler
+* 📚 Ders bazlı görev yönetimi
+* ➕ Yeni görev ekleme
+* ✏️ Görev düzenleme
+* 🗑️ Görev silme
+* ✅ Görev tamamlama / geri alma
+* 🔎 Ders bazlı görev filtreleme
+* 📊 Ders bazlı ilerleme yüzdesi
+* 📈 Genel ilerleme istatistikleri
+* 💾 LocalStorage ile verilerin tarayıcıda saklanması
+* 📱 Responsive tasarım
+* 🧩 Component-based yapı
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Kullanılan Teknolojiler
 
-## Expanding the Oxlint configuration
+* **React**
+* **TypeScript**
+* **Vite**
+* **CSS**
+* **React Hooks**
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+  * `useState`
+  * `useEffect`
+* **LocalStorage**
+* **Git & GitHub**
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## 🧠 Öğrenilen / Uygulanan Konular
+
+Bu proje geliştirilirken özellikle aşağıdaki frontend konularına odaklanılmıştır:
+
+* React component yapısı
+* Props kullanımı
+* State yönetimi
+* Event handling
+* Controlled inputs
+* Array methods (`map`, `filter`, `some`)
+* Conditional rendering
+* React Hooks
+* TypeScript type tanımlamaları
+* LocalStorage ile veri yönetimi
+* Responsive UI geliştirme
+* Component-based architecture
+
+## 🤖 AI Destekli Geliştirme
+
+StudyMate, **AI destekli geliştirme yaklaşımı** kullanılarak geliştirilmiştir.
+
+Geliştirme sürecinde AI; kod yapısının oluşturulması, hata analizi, TypeScript problemlerinin çözümü ve geliştirme fikirleri konusunda yardımcı olarak kullanılmıştır.
+
+Ancak oluşturulan kodlar doğrudan kullanılmak yerine incelenmiş, test edilmiş ve uygulamanın ihtiyaçlarına göre düzenlenmiştir.
+
+Bu yaklaşım ile amaç, yalnızca AI tarafından kod ürettirmek değil; **üretilen kodu okuyabilmek, doğrulayabilmek ve gerektiğinde geliştirebilmektir.**
+
+## 📂 Proje Yapısı
+
+```text
+StudyMateReact/
+├── src/
+│   ├── components/
+│   │   └── CourseCard.tsx
+│   ├── App.tsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.tsx
+├── public/
+├── package.json
+└── README.md
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 💻 Kurulum
+
+Projeyi bilgisayarınızda çalıştırmak için:
+
+```bash
+git clone https://github.com/bercemm/StudyMate.git
+cd StudyMate
+npm install
+npm run dev
+```
+
+Ardından terminalde gösterilen local adres üzerinden uygulamayı açabilirsiniz.
+
+## 🎯 Projenin Amacı
+
+StudyMate, frontend geliştirme sürecinde **React, TypeScript ve modern state yönetimi yaklaşımlarını pratik etmek** amacıyla geliştirilmiştir.
+
+Proje aynı zamanda gerçek bir kullanıcı ihtiyacını çözmeye yönelik, geliştirilebilir bir frontend uygulaması olarak tasarlanmıştır.
+
+## 📌 Gelecekte Eklenebilecek Özellikler
+
+* Kullanıcı girişi
+* Backend entegrasyonu
+* Veritabanı desteği
+* Çalışma süresi / Pomodoro takibi
+* Haftalık ve aylık istatistikler
+* Dark mode
+* Bildirim sistemi
+* React Native ile mobil uygulama
+
+---
+
+**StudyMate — React + TypeScript ile geliştirilmiş çalışma takip uygulaması.**
